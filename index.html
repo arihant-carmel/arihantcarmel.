@@ -46,6 +46,8 @@
   max-width: 400px;
   width: 90%; /* Set a width percentage for smaller screens */
   z-index: 999;
+  border-radius: 97px;
+    border: 18px solid #3c2498;
 }
 
 @media (min-width: 768px) {
@@ -63,16 +65,27 @@
 }
 
 #newLensPopup button {
-  background-color: #4CAF50;
+  /* background-color: #4CAF50; */
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
   color: #fff;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
 }
 
 #newLensPopup button:hover {
   background-color: #45a049;
 }
+
+@media (min-width: 768px) {
+            #newLensPopup {
+                font-size: 24px;
+                min-width: 196px;
+            }
+        }
 
   </style>
   <!-- Your website content goes here -->
